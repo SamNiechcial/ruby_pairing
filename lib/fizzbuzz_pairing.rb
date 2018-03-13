@@ -1,6 +1,7 @@
 ## FizzBuzz Pairing
 
 def fizzbuzz(check)
+
   if check % 3 == 0 && check % 5 == 0
     "FizzBuzz"
   elsif check % 3 == 0
@@ -10,4 +11,5 @@ def fizzbuzz(check)
   else
     check
   end
+  
 end

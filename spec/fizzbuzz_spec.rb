@@ -1,22 +1,22 @@
 ## fizzbuzz_spec.rb
 
-require 'fizzbuzz_pairing'
+require_relative '../lib/fizzbuzz_pairing'
 
 describe "fizzbuzz" do
 
-  it 'fizzbuzzes 3' do
+  it 'returns "Fizz" when passed 3' do
     expect(fizzbuzz(3)).to eq 'Fizz'
   end
 
-  it 'fizzbuzzes 5' do
+  it 'returns "Buzz" when passed 5' do
     expect(fizzbuzz(5)).to eq 'Buzz'
   end
 
-  it 'fizzbuzzes 15' do
+  it 'returns "FizzBuzz" when passed 15' do
     expect(fizzbuzz(15)).to eq 'FizzBuzz'
   end
 
-  it 'fizzbuzzes 16' do
+  it 'returns "16" when passed 16' do
     expect(fizzbuzz(16)).to eq 16
   end
 end
